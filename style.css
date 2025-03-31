@@ -46,6 +46,14 @@
     top: 104px;
     left: 520px;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .desktop .wte:hover, .grent:hover,
+  .chh:hover, .pinkfrog:hover, .lazaro:hover,
+  .kien:hover, .tung:hover, .trang:hover,
+  .vuthanhvan:hover, .hiimhi:hover {
+    transform: scale(1.25);
   }
   
   .desktop .grent {
@@ -55,6 +63,7 @@
     top: 104px;
     left: 261px;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out;
   }
   
   .desktop .chh {
@@ -64,6 +73,7 @@
     top: 104px;
     left: -4px;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out;
   }
   
   .desktop .text-wrapper {
@@ -86,6 +96,7 @@
     top: 104px;
     left: 779px;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out;
   }
   
   .desktop .lazaro {
@@ -95,6 +106,7 @@
     top: 104px;
     left: 1038px;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out;
   }
   
   .desktop .kien {
@@ -104,6 +116,7 @@
     top: 358px;
     left: 2px;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out;
   }
   
   .desktop .tung {
@@ -113,6 +126,7 @@
     top: 358px;
     left: 261px;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out;
   }
   
   .desktop .trang {
@@ -122,6 +136,7 @@
     top: 358px;
     left: 520px;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out;
   }
   
   .desktop .vuthanhvan {
@@ -131,6 +146,7 @@
     top: 358px;
     left: 779px;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out;
   }
   
   .desktop .hiimhi {
@@ -140,6 +156,7 @@
     top: 358px;
     left: 1038px;
     object-fit: cover;
+    transition: transform 0.3s ease-in-out;
   }
   
   .desktop .component-2 {
@@ -626,4 +643,5 @@
     text-decoration: underline;
     white-space: nowrap;
   }
+  
   
