@@ -38,42 +38,33 @@
     top: 2402px;
     left: 100px;
   }
-  
-  .desktop .wte {
+
+  .desktop .artist {
     position: absolute;
     width: 200px;
     height: 200px;
-    top: 104px;
-    left: 520px;
     object-fit: cover;
-    transition: transform 0.3s ease-in-out;
+    transition: transform 0.5s ease-in-out;
   }
-
-  .desktop .wte:hover, .grent:hover,
-  .chh:hover, .pinkfrog:hover, .lazaro:hover,
-  .kien:hover, .tung:hover, .trang:hover,
-  .vuthanhvan:hover, .hiimhi:hover {
+  
+  .desktop .artist:hover {
     transform: scale(1.25);
   }
   
-  .desktop .grent {
-    position: absolute;
-    width: 200px;
-    height: 200px;
+  .desktop #wte {
+    top: 104px;
+    left: 520px;
+  }
+
+  
+  .desktop #grent {
     top: 104px;
     left: 261px;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
   }
   
-  .desktop .chh {
-    position: absolute;
-    width: 208px;
-    height: 208px;
+  .desktop #chh {
     top: 104px;
     left: -4px;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
   }
   
   .desktop .text-wrapper {
@@ -89,74 +80,39 @@
     line-height: normal;
   }
   
-  .desktop .pinkfrog {
-    position: absolute;
-    width: 200px;
-    height: 200px;
+  .desktop #pinkfrog {
     top: 104px;
     left: 779px;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
   }
   
-  .desktop .lazaro {
-    position: absolute;
-    width: 200px;
-    height: 200px;
+  .desktop #lazaro {
     top: 104px;
     left: 1038px;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
   }
   
-  .desktop .kien {
-    position: absolute;
-    width: 200px;
-    height: 200px;
+  .desktop #kien {
     top: 358px;
     left: 2px;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
   }
   
-  .desktop .tung {
-    position: absolute;
-    width: 200px;
-    height: 200px;
+  .desktop #tung {
     top: 358px;
     left: 261px;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
   }
   
-  .desktop .trang {
-    position: absolute;
-    width: 200px;
-    height: 200px;
+  .desktop #trang {
     top: 358px;
     left: 520px;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
   }
   
-  .desktop .vuthanhvan {
-    position: absolute;
-    width: 200px;
-    height: 200px;
+  .desktop #vuthanhvan {
     top: 358px;
     left: 779px;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
   }
   
-  .desktop .hiimhi {
-    position: absolute;
-    width: 200px;
-    height: 200px;
+  .desktop #hiimhi {
     top: 358px;
     left: 1038px;
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
   }
   
   .desktop .component-2 {
